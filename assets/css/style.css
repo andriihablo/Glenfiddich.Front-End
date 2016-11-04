@@ -1,0 +1,68 @@
+body {
+    background: #c7b39b ;
+    color: #fff;
+    background-size: 100%;
+    height: 100%;
+}
+
+header {
+    background :  #E8E6E3 url(assets/img/geometry.png);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.logotype {
+    float: left;
+    font: italic 70px 'Oswald Regular';
+    color: fff;
+    text-align: center;
+    color: #b53b07;
+}
+
+button.register{
+    padding: 3px 7px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    color: red;
+    border-color: fff;
+
+}
+
+button.login{
+    padding: 3px 7px;
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    border-color: f9f9f9;
+    color: blue;
+}
+
+h3{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 15px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #818595;
+    border-radius: 20px;
+    padding: 20px;
+    font-family:'Orbitron', sans-serif;
+}
+
+
+
+footer {
+	background: grey;
+	width: 100%;
+	height:100px;
+	left: 0;
+	position: absolute;
+	margin-top: 50%;
+	text-align: center;
+	color: #070707
+
+}
