@@ -16,30 +16,41 @@ header {
 
 .logotype {
     float: left;
-    font: italic 70px 'Oswald Regular';
-    color: fff;
+    font: italic 80px 'Oswald Regular';
+    color: f1f1f1;
     text-align: center;
     color: #b53b07;
+
 }
 
 button.register{
     padding: 3px 7px;
     position: absolute;
-    top: 50px;
+    top:70px;
     right: 20px;
     color: red;
     border-color: fff;
+    border-radius: 50px 0 0 50px;
 
 }
 
 button.login{
     padding: 3px 7px;
     position: absolute;
-    top: 50px;
-    right: 120px;
+    top: 10px;
+    right: 20px;
     border-color: f9f9f9;
     color: blue;
+    border-radius: 50px 0 0 50px;
 }
+
+button.home{
+    padding: 3px 7px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    border-radius: 50px 0 0 50px;
+    }
 
 h3{
     position: absolute;
@@ -51,6 +62,11 @@ h3{
     border-radius: 20px;
     padding: 20px;
     font-family:'Orbitron', sans-serif;
+    color: blue}
+
+.span{
+    color: red;
+
 }
 
 
@@ -64,5 +80,234 @@ footer {
 	margin-top: 50%;
 	text-align: center;
 	color: #070707
+
+}
+
+
+.contact_form, .profile_form, .restore_pass{
+    position: absolute;
+    top:180px;
+    left: 360px;
+}
+
+.contact_form h2, .contact_form label, .profile_form h2,
+.profile_form label, .restore_pass h2, .restore_pass label {
+    font-family:'Orbitron', sans-serif;
+}
+
+
+
+.contact_form ul, .profile_form ul, .restore_pass ul {
+    width: 650px;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact_form li, .profile_form li, .restore_pass li{
+      padding:12px;
+      border-bottom:1px solid #eee;
+      position:relative;
+}
+
+.contact_form li:first-child, .contact_form li:last-child, .profile_form li:first-child,
+.profile_form li:last-child, .restore_pass li:first-child, .restore_pass li:last-child {
+    border-bottom:1px solid #777;
+}
+
+.contact_form h2, .profile_form h2, .restore_pass h2 {
+    margin-left: 200px;
+    display: inline;
+}
+
+.required_notification {
+      color:#d45252;
+      margin:5px 0 0 0;
+      display:inline;
+      float:right;
+}
+
+.contact_form label, .profile_form label, .restore_pass label {
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    float: left;
+    padding: 3px;
+}
+
+.contact_form input, .profile_form input, .restore_pass input {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+}
+
+.contact_form textarea, .profile_form textarea, .restore_pass textarea {
+    padding:8px; width:300px;
+}
+
+.contact_form button, .profile_form button {
+    margin-left:156px;
+}
+
+.contact_form input, .contact_form textarea, .profile_form input,
+.profile_form textarea, .restore_pass input, .restore_pass textarea {
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+}
+
+
+button.submit {
+    background-color: #68b12f;
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+
+button.submit:hover {
+      opacity:.85;
+      cursor: pointer;
+}
+
+button.submit:active {
+      border: 1px solid #20911e;
+      box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
+
+
+
+button.profile {
+    padding: 3px 7px;
+    position: absolute;
+    top: 108px;
+    right: 15px;
+}
+
+button.forgot_pass{
+    padding: 3px 7px;
+    border-radius: 3px;
+    position: absolute;
+    top: 520px;
+    right: 518px;
+}
+
+.restore_pass button{
+    margin-left:280px;
+}
+
+.login_form{
+    position: absolute;
+    top:300px;
+    left:44%;
+    width: 220px;
+    height: 155px;
+}
+
+.login_form label {
+    display: none;
+}
+
+.login_form input[type="text"],.login_form input[type="password"] {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-top: 7px;
+    font-size: 14px;
+    color: #000000;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .49);
+    padding-left: 20px;
+    background-clip: padding-box;
+    border-radius: 6px;
+    background-color: lightgray;
+    box-shadow: inset 0px 2px 0px #d9d9d9;
+}
+
+.login_form input[type="text"]:focus,.login_form input[type="password"]:focus {
+    box-shadow: inset 0px 3px 0px #808080;
+}
+
+.login_form input:first-child {
+    margin-top: 0px;
+}
+
+.login_form input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 142px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px -1px 0px #8b8b8b;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .49);
+    background-clip: padding-box;
+    border-radius: 6px;
+    background-color: #646970;
+    box-shadow: inset 0px 1px 0px #949494;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.login_form input[type="submit"]:hover {
+    background-color: #7e848b;
+    box-shadow: inset 0px 1px 0px #a8a8a8;
+    margin-top: 10px;
+}
+
+.login_form input[type="submit"]:active {
+    background-color: #70757c;
+    box-shadow: inset 0px 1px 0px #999999;
+}
+
+
+.contact_form input:focus, .contact_form textarea:focus {
+    padding-right:70px;
+}
+
+.contact_form input, .profile_form input, .contact_form textarea {
+    transition: padding .25s;
+    padding-right:30px;
+}
+
+input:required, textarea:required {
+    background: #fff url(images/asterisk.jpg) no-repeat 98% center;
+}
+
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+    background: #fff no-repeat 98% center;
+    box-shadow: 0 0 5px #d4683c;
+    border-color: #b0525e
+}
+
+.contact_form input:required:valid, .contact_form textarea:required:valid,
+.restore_pass input:required:valid, .restore_pass textarea:required:valid{
+    background: #fff no-repeat 98% center;    border-bottom-color: #28921f;
+}
+
+.image{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 14px;
+    border-radius: 15em;
+
 
 }
