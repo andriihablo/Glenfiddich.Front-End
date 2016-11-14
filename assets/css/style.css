@@ -78,6 +78,14 @@ footer {
 }
 
 
+footer, nav, header, section, aside {
+ 
+display: block
+ 
+}
+
+
+
 .contact_form, .profile_form, .restore_pass{
     position: absolute;
     top:180px;
@@ -302,10 +310,4 @@ input:required, textarea:required {
     top: 150px;
     left: 14px;
     border-radius: 15em;
-}
-
-footer, nav, header, section, aside {
- 
-display: block
- 
 }
