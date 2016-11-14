@@ -64,12 +64,6 @@ h3{
     font-family:'Orbitron', sans-serif;
     color: blue}
 
-.span{
-    color: red;
-
-}
-
-
 
 footer {
 	background: grey;
@@ -308,6 +302,10 @@ input:required, textarea:required {
     top: 150px;
     left: 14px;
     border-radius: 15em;
+}
 
-
+footer, nav, header, section, aside {
+ 
+display: block
+ 
 }
